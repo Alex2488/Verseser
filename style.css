@@ -1,0 +1,159 @@
+body {
+    background: #FFFFFF;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    position: relative;
+    align-self: center;
+    width: 1440px;
+    min-height: 100vh;
+}
+
+.navi .naviMenu .naviSocial {
+    display: flex;
+    color: #393939;
+}
+
+.naviMenu {
+    display: flex;
+    padding-left: 83px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.menuItem {
+    padding-left: 30px;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: #393939;
+}
+.naviSocial {
+    justify-content: flex-end;
+}
+
+.socialItem{
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.socialItem img {
+    height: 17px;
+}
+
+.socialItem {
+    padding-left: 30px;
+}
+
+.item-1s {
+    padding-left: 250px;
+}
+
+h1 {
+    width: 800px;
+    height: 56px;
+    margin-bottom: 0;
+    padding-left: 115px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 56px;
+    /* identical to box height */
+
+    letter-spacing: -0.03em;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+h2 {
+    width: 553px;
+    height: 30px;
+    margin-top: 0;
+    padding-left: 115px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 169.02%;
+    /* or 30px */
+
+
+    /* secondary */
+
+    color: #393939;
+}
+
+.btn {
+    background: black;
+    padding: 15px 40px 15px 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 113px;
+    top: 20px;
+    border: 2px solid black;
+    transition: all 0.6s ease;
+
+    /*text*/
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #FFFFFF;
+    color: black;
+    border-bottom-color: black;
+    box-shadow: 0 0 18px grey;
+}
+
+#wave, #dress {
+    position: relative;
+}
+
+#wave {
+    top: 120px;
+}
+
+#wave img {
+    width: 100%;
+}
+
+#dress {
+    margin-top: -650px;
+    left: 600px;
+}
+
+#dress img {
+    width: 770px;
+}
+#behind{
+    margin-top: -820px;
+    margin-left: 670px;
+}
+#behind img {
+    width: 770px;
+/*#year {*/
+/*    position: relative;*/
+/*    align-self: center;*/
+/*}*/
