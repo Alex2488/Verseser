@@ -1,5 +1,9 @@
+    *{
+        margin: 0 auto;
+    }
 body {
     background: #FFFFFF;
+    /*margin: 0 auto;*/
 }
 
 header {
@@ -64,9 +68,8 @@ a {
 h1 {
     width: 800px;
     height: 56px;
-    margin-bottom: 0;
-    padding-left: 115px;
-    font-family: 'Inter';
+    margin-top: 70px;
+    margin-left: 151px  ;
     font-style: normal;
     font-weight: 600;
     font-size: 46px;
@@ -89,8 +92,8 @@ h2 {
     width: 553px;
     height: 30px;
     margin-top: 0;
-    padding-left: 115px;
-    font-family: 'Inter';
+    margin-left: 151px;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -107,6 +110,7 @@ h2 {
     background: black;
     padding: 15px 40px 15px 40px;
     margin-top: 20px;
+    margin-left: 37px;
     border-radius: 30px;
     position: relative;
     left: 113px;
@@ -125,6 +129,13 @@ h2 {
     color: black;
     border-bottom-color: black;
     box-shadow: 0 0 18px grey;
+}
+
+.btn:active {
+    background: #FFFFFF;
+    color: black;
+    border-bottom-color: black;
+    box-shadow: 0 0 50px grey;
 }
 
 #wave, #dress {
@@ -153,7 +164,4 @@ h2 {
 }
 #behind img {
     width: 770px;
-/*#year {*/
-/*    position: relative;*/
-/*    align-self: center;*/
-/*}*/
+}
